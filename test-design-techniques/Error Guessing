@@ -1,0 +1,25 @@
+# Error Guessing
+
+Error Guessing is a technique based on tester experience and intuition to identify areas where defects are likely to occur.
+
+## Example
+Search functionality on e-commerce website
+
+## Possible Error Scenarios
+- Empty search input
+- Input with special characters (!@#$%)
+- Very long input string (100+ characters)
+- Mixed letters and numbers (abc123)
+- Search with unsupported language
+
+## Test Cases
+| Test Case | Input                 | Expected Result                 |
+|-----------|-----------------------|---------------------------------|
+| TC-01     | ""                    | Validation message              |
+| TC-02     | "@@@###"              | No results / error message      |
+| TC-03     | 100 random characters | System handles input correctly  |
+| TC-04     | "brake123"            | Relevant results                |
+| TC-05     | Chinese characters    | No results or handled correctly |
+
+## Conclusion
+Error guessing helps identify defects that are often missed by formal techniques.
