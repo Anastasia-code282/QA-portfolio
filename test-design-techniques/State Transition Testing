@@ -1,0 +1,22 @@
+# State Transition Testing
+
+State Transition Testing is used when the system changes behavior based on its current state.
+
+## Example
+User account status
+
+## States
+- Active
+- Blocked
+- Deleted
+
+## Transitions
+| Current State |          Action        | New State |
+|---------------|------------------------|-----------|
+| Active        | Too many failed logins | Blocked   |
+| Blocked       | Admin unlocks account  | Active    |
+| Active        | User deletes account   | Deleted   |
+
+## Test Scenarios
+- Verify login is blocked for blocked user
+- Verify deleted user cannot log in
