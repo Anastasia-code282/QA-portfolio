@@ -1,11 +1,21 @@
-Feature: Age validation (18–65)
+# Boundary Value Analysis (BVA)
 
-Valid range: 18–65
+Boundary Value Analysis is a test design technique used to test values at the boundaries of allowed input ranges.
 
-Test values:
-- 17 (invalid)
-- 18 (valid)
-- 19 (valid)
-- 64 (valid)
-- 65 (valid)
-- 66 (invalid)
+## Example
+Field: Age  
+Allowed range: from 18 to 65
+
+## Test Values
+| Test Case | Input | Expected Result |
+|----------|-------|----------------|
+| TC-01 | 17 | Access denied |
+| TC-02 | 18 | Access granted |
+| TC-03 | 19 | Access granted |
+| TC-04 | 64 | Access granted |
+| TC-05 | 65 | Access granted |
+| TC-06 | 66 | Access denied |
+
+## Conclusion
+Boundary values often reveal defects that are not found when testing only typical values.
+
