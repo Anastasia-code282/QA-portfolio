@@ -1,0 +1,25 @@
+# Equivalence Partitioning
+
+Equivalence Partitioning is a technique that divides input data into valid and invalid classes to reduce the number of test cases.
+
+## Example
+Field: Password length  
+Requirement: 8–20 characters
+
+## Equivalence Classes
+
+### Valid
+- Password length from 8 to 20 characters
+
+### Invalid
+- Less than 8 characters
+- More than 20 characters
+- Empty value
+
+## Test Cases
+| Test Case | Input | Expected Result |
+|----------|-------|----------------|
+| TC-01 | "Pass1234" | Accepted |
+| TC-02 | "1234567" | Error |
+| TC-03 | "VeryLongPassword12345" | Error |
+| TC-04 | "" | Error |
