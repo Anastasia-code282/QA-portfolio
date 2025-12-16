@@ -1,0 +1,11 @@
+Feature: Age validation (18–65)
+
+Valid range: 18–65
+
+Test values:
+- 17 (invalid)
+- 18 (valid)
+- 19 (valid)
+- 64 (valid)
+- 65 (valid)
+- 66 (invalid)
