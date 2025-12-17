@@ -1,0 +1,35 @@
+# Use Case Testing
+
+Use Case Testing focuses on validating end-to-end user scenarios based on real user behavior.
+
+## Example
+Online store – purchase flow
+
+## Use Case: Buy a product
+
+### Actor : Registered user
+
+### Preconditions
+- User is logged in
+- Product is available in stock
+
+### Main Flow
+1. User opens product page
+2. User adds product to cart
+3. User opens cart
+4. User proceeds to checkout
+5. User enters delivery details
+6. User confirms order
+
+### Expected Result
+- Order is successfully placed
+- Confirmation message is displayed
+
+## Alternative Flows
+- Product is out of stock
+- Payment is declined
+- User cancels checkout
+
+## Conclusion
+Use case testing ensures critical user flows work as expected.
+

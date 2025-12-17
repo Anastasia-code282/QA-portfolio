@@ -5,7 +5,7 @@ This repository contains examples of my QA work created during a group education
 ## Contents:
 - Test cases and checklists for web applications
 - Bug report examples
-- Test design techniques (BVA, Equivalence Partitioning)
+- Test design techniques
 - API testing samples (Postman)
 
 ## Tools used:

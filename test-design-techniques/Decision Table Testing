@@ -1,0 +1,26 @@
+# Decision Table Testing
+
+Decision Table Testing is used when system behavior depends on multiple conditions.
+
+## Example
+Login functionality
+
+### Conditions
+- Correct username
+- Correct password
+
+### Actions
+- Allow login
+- Show error message
+
+## Decision Table
+
+| Username Correct | Password Correct | Result           |
+|------------------|------------------|------------------|
+| Yes              | Yes              | Login successful |
+| Yes              | No               | Error message    |
+| No               | Yes              | Error message    |
+| No               | No               | Error message    |
+
+## Conclusion
+Decision tables help ensure all combinations of conditions are tested.

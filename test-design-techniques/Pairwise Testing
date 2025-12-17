@@ -1,0 +1,25 @@
+# Pairwise Testing
+
+Pairwise Testing is a test design technique used to reduce the number of test cases by testing all possible pairs of input parameters.
+
+## Example
+E-commerce product filter
+
+### Parameters
+- Browser: Chrome, Firefox, Edge
+- OS: Windows, macOS
+- User type: Guest, Logged-in
+
+### Pairwise Test Cases
+
+| Test Case | Browser | OS      | User Type |
+|-----------|---------|---------|-----------|
+| TC-01     | Chrome  | Windows | Guest     |
+| TC-02     | Chrome  | macOS   | Logged-in |
+| TC-03     | Firefox | Windows | Logged-in |
+| TC-04     | Firefox | macOS   | Guest     |
+| TC-05     | Edge    | Windows | Guest     |
+| TC-06     | Edge    | macOS   | Logged-in |
+
+## Conclusion
+Pairwise testing significantly reduces the number of test cases while maintaining good coverage.
