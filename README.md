@@ -1,19 +1,17 @@
-This API testing examples created as part of my QA learning and practice.
+# QA Portfolio
 
-## 🔹 Tools
+This repository contains examples of my QA work created during a group educational project and self-practice.
+
+## Contents:
+- Test cases and checklists for web applications
+- Bug report examples
+- Test design techniques
+- API testing samples (Postman)
+
+## Tools used:
+- Jira
+- Chrome DevTools
 - Postman
-- FakeStoreAPI (demo e-commerce API)
+- Git / GitHub
 
-## 🔹 Covered Scenarios
-- GET product list
-- GET product by ID
-- POST create product
-- PUT update product
-- DELETE product
-- Positive and negative test cases
-- Response validation using Postman Tests
-
-## 🔹 How to use
-1. Import Postman collection (.json) into Postman
-2. (Optional) Import environment file
-3. Run requests manually or using Collection Runner
+This repository is for demonstration purposes and does not contain commercial data.
